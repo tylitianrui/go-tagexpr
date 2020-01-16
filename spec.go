@@ -6,6 +6,7 @@ import (
 	"strings"
 )
 
+//  解析出各个数据类型
 // Expr expression interface
 type Expr interface {
 	SetParent(Expr)
